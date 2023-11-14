@@ -1,0 +1,107 @@
+/** @format */
+
+body {
+  background: #a2a8d3;
+  font-family: "Climate Crisis", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  color: #352f44;
+}
+
+p {
+  font-family: "Climate Crisis", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+
+.app {
+  background: gainsboro;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 40px #141010;
+}
+
+header {
+  border-bottom: 1px solid #7c73e6;
+  padding-bottom: 30px;
+}
+
+.city-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: blueviolet;
+  font-size: 16px;
+  padding: 15px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.search-btn {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: rosybrown;
+  color: white;
+  border: none;
+  padding: 15px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.newest-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-temp {
+  font-size: 48px;
+}
+
+.new-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.new-detail {
+  color: #6643b5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.new-detail strong {
+  color: purple;
+}
+
+.new-temp-icon {
+  position: relative;
+  top: -4px;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+.new-temp-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.new-temp-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
+
+footer {
+  border-top: 1px solid;
+  text-align: center;
+  padding-top: 15px;
+  color: darkmagenta;
+}
+/** @format */

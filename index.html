@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Outfit:wght@600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Outfit&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Project 2 W4 - Weather App to JS</title>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <form id="city-form">
+                <input type="search" placeholder="Enter a city..." required class="city-input" id="city-input" />
+                <input type="submit" value="Search" id="search-btn" class="search-btn" />
+            </form>
+        </header>
+
+        <section>
+            <div class="newest-weather">
+                <div>
+                    <h1 class="new-city" id="new-city">Kuala Lumpur</h1>
+                    <p class="new-detail">
+                        <span id="latest-date"></span>, light rain showers <br />
+                        Humidity: <strong>92%</strong>, Wind: <strong>3km/h</strong>
+                    </p>
+                </div>
+                <div class="new-temp">
+                    <span class="new-temp-icon">🌧️</span>
+                    <span class="new-temp-value">26</span>
+                    <span class="new-temp-unit">°C</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                This project was coded by
+                <a href="https://www.shecodes.io/graduates/102452-natasha-mohd-isa">Natasha Mohd Isa</a>
+                and is
+                <a href="https://www.shecodes.io">open-sourced</a>.
+            </p>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
